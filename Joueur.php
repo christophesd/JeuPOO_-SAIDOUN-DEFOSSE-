@@ -10,7 +10,7 @@ Class Joueur
     private $_def; // puissance de défence
     private $_niveau;
 
-    public function __construct(string $nom, int $vie = 100, int $force = 100, int $atk = NULL, int $def = NULL)
+    public function __construct(string $nom, int $vie = 60, int $force = 60, int $atk = NULL, int $def = NULL)
     {
         $this->_nom = $nom;
         if ($atk == NULL) {
